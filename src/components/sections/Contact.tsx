@@ -12,7 +12,7 @@ export default function Contact() {
     setStatus("submitting");
     
     const formData = new FormData(e.target as HTMLFormElement);
-    formData.append("access_key", "YOUR_ACCESS_KEY_HERE"); // USER should replace this
+    formData.append("access_key", process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY || "");
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
