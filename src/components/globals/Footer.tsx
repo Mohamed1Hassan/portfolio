@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { GitBranch, Briefcase, Mail, Phone, MessageCircle } from "lucide-react";
+import { Github, Briefcase, Mail, Phone, MessageCircle } from "lucide-react";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -18,7 +18,7 @@ export default function Footer() {
           </div>
 
           <div className="flex items-center gap-4">
-            <SocialLink href="https://github.com" icon={<GitBranch size={20} />} />
+            <SocialLink href="https://github.com/Mohamed1Hassan" icon={<Github size={20} />} />
             <SocialLink href="https://linkedin.com/in/mohamed-hassan-8080102a2" icon={<Briefcase size={20} />} />
             <SocialLink href="https://wa.me/201156708000" icon={<MessageCircle size={20} />} />
             <SocialLink href="tel:+201010865901" icon={<Phone size={20} />} />
