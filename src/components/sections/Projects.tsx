@@ -14,7 +14,7 @@ const PROJECTS = [
     tech: ["Next.js", "React.js", "Tailwind CSS", "REST API"],
     images: ["/lms/1.png", "/lms/2.png", "/lms/3.png", "/lms/4.png"],
     github: "#",
-    live: "https://smart-campus-assistant-orcin.vercel.app/"
+    live: "https://thebes-academy-portal.vercel.app/"
   },
 
   {
