@@ -20,10 +20,6 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"),
   title: "Mohamed Hassan | Frontend-Focused Full Stack Developer",
   description: "Web developer with 2+ years of experience building stable, maintainable frontend solutions and scalable REST APIs.",
-  icons: {
-    icon: "/profile.jpg",
-    apple: "/profile.jpg",
-  },
   keywords: ["Mohamed Hassan", "Full Stack Developer", "Frontend Developer", "React.js", "Next.js", "Node.js", "Web Developer Egypt"],
   openGraph: {
     title: "Mohamed Hassan | Full Stack Developer",
